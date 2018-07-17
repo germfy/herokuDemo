@@ -1,0 +1,22 @@
+{
+  "name": "reactfull",
+  "version": "1.0.0",
+  "description": "React fullstack course project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": {
+    "name": "Jose Carlos Correa",
+    "email": "carloscorrea.dev@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
